@@ -209,7 +209,6 @@ hr {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-<<<<<<< HEAD
 
 .game-message {
   display: none;
@@ -283,7 +282,7 @@ hr {
       -webkit-animation-fill-mode: both;
       -moz-animation-fill-mode: both;
       animation-fill-mode: both; }
-=======
+
   .game-container .game-message {
     display: none;
     position: absolute;
@@ -330,7 +329,6 @@ hr {
         display: inline-block; }
     .game-container .game-message.game-won, .game-container .game-message.game-over {
       display: block; }
->>>>>>> origin/master
 
 .grid-container {
   position: absolute;
@@ -627,17 +625,14 @@ background-repeat: no-repeat;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-<<<<<<< HEAD
   color: #f9f6f2;
   height: 40px;
   line-height: 42px;
   cursor: pointer;
-=======
   /*color: #ffffff;*/
   color: #ffff00;
   height: 30px;
   line-height: 32px;
->>>>>>> origin/master
   display: block;
   text-align: center;
   float: right; }
@@ -708,7 +703,6 @@ background-repeat: no-repeat;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
-<<<<<<< HEAD
 
   .game-message {
     display: none;
@@ -739,7 +733,6 @@ background-repeat: no-repeat;
     .game-message .mailing-list {
       margin-top: 52px; }
       .game-message .mailing-list strong {
-=======
     .game-container .game-message {
       display: none;
       position: absolute;
@@ -764,7 +757,6 @@ background-repeat: no-repeat;
         line-height: 60px;
         margin-top: 222px; }
       .game-container .game-message .lower {
->>>>>>> origin/master
         display: block;
         margin-bottom: 10px; }
       .game-message .mailing-list .mailing-list-email-field {
@@ -915,107 +907,3 @@ background-repeat: no-repeat;
       line-height: 30px !important;
       margin-top: 32% !important;
       margin-bottom: 0 !important; }
-    .game-message .lower {
-      margin-top: 10px !important; }
-    .game-message.game-won .score-sharing {
-      margin-top: 10px; }
-    .game-message.game-over .mailing-list {
-      margin-top: 25px; }
-    .game-message .mailing-list {
-      margin-top: 10px; }
-      .game-message .mailing-list .mailing-list-email-field {
-        width: 180px; }
-
-  .sharing > iframe, .sharing > span, .sharing > form {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px; } }
-.pp-donate button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: none;
-  font: inherit;
-  color: inherit;
-  display: inline-block;
-  background: #8f7a66;
-  border-radius: 3px;
-  padding: 0 20px;
-  text-decoration: none;
-  color: #f9f6f2;
-  height: 40px;
-  line-height: 42px;
-  cursor: pointer; }
-  .pp-donate button img {
-    vertical-align: -4px;
-    margin-right: 8px; }
-
-.btc-donate {
-  position: relative;
-  margin-left: 10px;
-  display: inline-block;
-  background: #8f7a66;
-  border-radius: 3px;
-  padding: 0 20px;
-  text-decoration: none;
-  color: #f9f6f2;
-  height: 40px;
-  line-height: 42px;
-  cursor: pointer; }
-  .btc-donate img {
-    vertical-align: -4px;
-    margin-right: 8px; }
-  .btc-donate a {
-    color: #f9f6f2;
-    text-decoration: none;
-    font-weight: normal; }
-  .btc-donate .address {
-    cursor: auto;
-    position: absolute;
-    width: 340px;
-    right: 50%;
-    margin-right: -170px;
-    padding-bottom: 7px;
-    top: -30px;
-    opacity: 0;
-    pointer-events: none;
-    -webkit-transition: 400ms ease;
-    -moz-transition: 400ms ease;
-    transition: 400ms ease;
-    -webkit-transition-property: top, opacity;
-    -moz-transition-property: top, opacity;
-    transition-property: top, opacity; }
-    .btc-donate .address:after {
-      position: absolute;
-      border-top: 10px solid #bbada0;
-      border-right: 7px solid transparent;
-      border-left: 7px solid transparent;
-      content: "";
-      bottom: 0px;
-      left: 50%;
-      margin-left: -7px; }
-    .btc-donate .address code {
-      background-color: #bbada0;
-      padding: 10px 15px;
-      width: 100%;
-      border-radius: 3px;
-      line-height: 1;
-      font-weight: normal;
-      font-size: 15px;
-      font-family: Consolas, "Liberation Mono", Courier, monospace;
-      text-align: center; }
-  .btc-donate:hover .address, .btc-donate .address:hover .address {
-    opacity: 1;
-    top: -45px;
-    pointer-events: auto; }
-  @media screen and (max-width: 480px) {
-    .btc-donate {
-      width: 120px; }
-      .btc-donate .address {
-        margin-right: -150px;
-        width: 300px; }
-        .btc-donate .address code {
-          font-size: 13px; }
-        .btc-donate .address:after {
-          left: 50%;
-          bottom: 2px; } }
